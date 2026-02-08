@@ -1,0 +1,186 @@
+body{
+    background-color: beige;
+}
+header{
+    padding: 3%;
+    margin: auto;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+footer{
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 241, 236);
+    background-attachment: fixed;
+    
+}
+.moi{
+    font-size: 10px;
+    display: flex;
+    align-items: end;
+    gap: 20%;
+ color: rgb(110, 218, 119);
+}
+.nom{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(110, 218, 119);
+    margin-right: 10% ;
+}
+h1{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(110, 218, 119);
+}
+h2{
+    color: rgb(4, 91, 49) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 23px;
+}
+img[alt="Mon image de profil"]{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.ma{
+    text-align: center;
+    color: rgb(110, 218, 119);
+}
+.image{
+    width: 800px;
+    display: flex;
+    justify-content: end;
+}
+.contact{
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.logo{
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+}
+img[alt="log"]{ 
+    padding: auto;
+    width: 50px;
+    height: 50px;
+}
+.deux{
+    margin: 2%;
+    padding: 10%;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    flex-direction: row;
+}
+.un{
+    color: rgb(235, 241, 236);
+    padding: 5%;
+    margin: 2%;
+    background-color: rgb(161, 193, 133);
+    gap : 20%;
+}
+.ça{
+    color: rgb(4, 90, 80);
+}
+.ça2{
+    font-size: 20px;
+}
+img[alt="Mon image de profil2"]{
+    padding: 10%;
+    width: 300px;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+}
+.flip-container {
+    perspective: 1000px; 
+    padding: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.flip-card { 
+    width: 350px; 
+    height: 150px; 
+    cursor: pointer; 
+    transform-style: preserve-3d; 
+    transition: transform 0.6s; 
+    z-index: 1000; 
+}
+.flip-card.flipped { 
+    transform: rotateY(180deg); 
+}
+.flip-card .face {  
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    backface-visibility: hidden; 
+    border-radius: 12px; 
+    font-size: 24px; 
+    font-weight: bold; 
+    box-shadow: 0 6px 20px rgba(3, 79, 2, 0.8); 
+    border: none; 
+    cursor: pointer; 
+}
+.flip-card .front { 
+    background: linear-gradient(135deg, #4CAF50, #2E7D32); 
+    color: white; 
+}
+.flip-card .back { 
+    background: white; 
+    color: #333; 
+    transform: rotateY(180deg); 
+    border: 2px solid #4CAF50; 
+}
+#merciBtn {
+    display: block;
+    margin: 40px auto;
+    padding: 18px 50px;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#merciBtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+#merciBtn:active {
+    transform: scale(0.98);
+}
+.crea{
+    padding: 2%;
+    font-size: 20px;
+    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(31, 86, 4);
+    width: fit-content;
+    margin: 0 auto;
+ }
